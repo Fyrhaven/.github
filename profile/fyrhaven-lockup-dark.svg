@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-label="Fyrhaven">
+  <title>Fyrhaven — lockup, for dark backgrounds</title>
+  <!-- The same lockup as fyrhaven-lockup.svg with the wordmark in Paper instead of
+       Ink, so it stays readable on a dark page (GitHub's dark theme, the store's
+       footer). The tagline is Paper at 60% opacity — a tint of the existing token,
+       not a sixth colour. -->
+  <g transform="translate(8,8) scale(1.25)">
+    <rect width="64" height="64" rx="14" fill="#0E2233"/>
+    <g clip-path="url(#tile2)">
+      <polygon points="35,19.5 63,10 63,29 35,23" fill="#F2B441" opacity="0.55"/>
+      <polygon points="35,20.5 63,15 63,24 35,22.5" fill="#F2B441" opacity="0.85"/>
+    </g>
+    <ellipse cx="31" cy="53.5" rx="17" ry="3.4" fill="#F7F9FA"/>
+    <polygon points="25.6,51 29.2,27 34.8,27 38.4,51" fill="#F7F9FA"/>
+    <rect x="24.6" y="24.6" width="14.8" height="2.6" rx="1.1" fill="#F7F9FA"/>
+    <rect x="28.6" y="19.4" width="6.8" height="5.4" fill="#F7F9FA"/>
+    <polygon points="27.4,19.4 32,14.4 36.6,19.4" fill="#F7F9FA"/>
+    <polygon points="29.9,31.5 34.1,31.5 34.5,36.5 29.5,36.5" fill="#C8453B"/>
+    <polygon points="29,40 35,40 35.5,45.5 28.5,45.5" fill="#C8453B"/>
+    <defs><clipPath id="tile2"><rect width="64" height="64" rx="14"/></clipPath></defs>
+  </g>
+  <text x="104" y="52" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="34" font-weight="600" letter-spacing="-0.5" fill="#F7F9FA">fyrhaven</text>
+  <text x="106" y="72" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="12" font-weight="500" letter-spacing="2.4" fill="#F7F9FA" opacity="0.6">MAIL · RECORDS · PEOPLE</text>
+</svg>
